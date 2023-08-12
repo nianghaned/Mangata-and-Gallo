@@ -1,0 +1,27 @@
+body {
+  background-color: #eddbc7;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin: auto;
+  height: 3rem;
+  width: 35rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 2rem;
+}
