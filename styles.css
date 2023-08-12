@@ -38,6 +38,12 @@ nav ul {
   padding: 3rem;
 }
 
+ul li:hover {
+  cursor: pointer;
+  color: #a7727d;
+  transition: all 0.25s ease 0s;
+  text-decoration: underline;
+}
 main {
   background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/cat-han-Ks6wd1Zyf1o-unsplash.jpg");
   background-color: #f9f5e7;
