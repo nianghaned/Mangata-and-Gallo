@@ -61,12 +61,18 @@ main {
   padding: 6rem;
 }
 
-section {
-  display: flex;
-}
-
 article {
   flex: 1;
+}
+
+@keyframes bounceIn {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
 }
 
 #bottom-section {
@@ -78,6 +84,7 @@ article {
   color: #ffffff;
   height: 25rem;
   width: 25rem;
+  animation: bounceIn 3s ease-in 1s slidein;
 }
 #subsection1 {
   background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/jasmin-chew-UBeNYvk6ED0-unsplash.jpg");
