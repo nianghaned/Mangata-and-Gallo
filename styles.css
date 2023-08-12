@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-size: 3rem;
+  color: #ffffff;
 }
 
 h2 {
@@ -31,7 +32,12 @@ article > h1 {
   text-align: center;
 }
 main {
+  background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/cat-han-Ks6wd1Zyf1o-unsplash.jpg");
   background-color: #f9f5e7;
+  background-size: 70rem 70rem;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position: center;
   padding: 6rem;
 }
 
@@ -56,6 +62,7 @@ div > img {
   height: 2rem;
   width: 12rem;
   margin-left: 5rem;
+  padding-top: 1rem;
 }
 
 div > p {
