@@ -58,6 +58,8 @@ article {
 #bottom-section {
   margin-top: 10rem;
   background-color: #a7727d;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
