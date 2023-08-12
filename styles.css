@@ -20,8 +20,15 @@ button {
   padding: 1em 4em 1em;
   letter-spacing: 0.05em;
   font-size: 14px;
-  cursor: pointer;
   border: 1px solid black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #a7727d;
+  color: #ffffff;
+  transition: all 0.25s ease 0s;
+  text-decoration: underline;
+  font-size: 16px;
 }
 header > img {
   display: block;
@@ -35,7 +42,8 @@ nav ul {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding: 3rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
 }
 
 ul li:hover {
