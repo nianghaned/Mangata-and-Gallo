@@ -57,11 +57,38 @@ article {
 
 #bottom-section {
   margin-top: 10rem;
-  background-color: #a7727d;
+  gap: 6rem;
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  color: #ffffff;
+  height: 25rem;
+  width: 25rem;
 }
-
+#subsection1 {
+  background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/jasmin-chew-UBeNYvk6ED0-unsplash.jpg");
+  background-size: 30rem 35rem;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  background-position: center;
+}
+#subsection2 {
+  background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/nati-melnychuk-5ngCICAXiH0-unsplash.jpg");
+  background-size: 30rem 35rem;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  background-position: center;
+}
+#subsection3 {
+  background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/kateryna-hliznitsova-ceSCZzjTReg-unsplash.jpg");
+  background-size: 30rem 35rem;
+  padding: 6rem;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  background-position: top;
+}
 footer {
   display: flex;
   justify-content: space-between;
