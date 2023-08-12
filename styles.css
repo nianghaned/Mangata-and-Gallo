@@ -28,15 +28,12 @@ nav ul {
   padding: 3rem;
 }
 
-article > h1 {
-  text-align: center;
-}
+
 main {
   background-image: url("/Users/Admin/Desktop/code_projects/Mangata-and-Gallo/photos/cat-han-Ks6wd1Zyf1o-unsplash.jpg");
   background-color: #f9f5e7;
-  background-size: 70rem 70rem;
+  background-size: 90rem 90rem;
   background-repeat: no-repeat;
-  background-clip: content-box;
   background-position: center;
   padding: 6rem;
 }
