@@ -1,4 +1,6 @@
 body {
+  padding: 0;
+  margin: 0;
   background-color: #eddbc7;
 }
 
@@ -13,7 +15,7 @@ h2 {
 header > img {
   display: block;
   margin: auto;
-  height: 3rem;
+  height: 4rem;
   width: 35rem;
 }
 
@@ -22,6 +24,21 @@ nav ul {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  padding: 3rem;
+}
 
-  padding: 2rem;
+article > h1 {
+  text-align: center;
+}
+main {
+  background-color: #f9f5e7;
+  padding: 6rem;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
 }
