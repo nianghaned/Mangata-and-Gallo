@@ -42,3 +42,22 @@ section {
 article {
   flex: 1;
 }
+#bottom-section {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+div > img {
+  height: 2rem;
+  width: 12rem;
+  margin-left: 5rem;
+}
+
+div > p {
+  margin-right: 5rem;
+}
